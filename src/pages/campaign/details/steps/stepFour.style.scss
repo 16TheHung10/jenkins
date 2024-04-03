@@ -1,0 +1,17 @@
+#step_four_wrapper {
+  .fields {
+    &-block {
+      border-radius: 10px;
+      grid-gap: 10px;
+      gap: 10px;
+
+      &-title {
+        color: #77797b;
+      }
+
+      &-value {
+        font-weight: 500;
+      }
+    }
+  }
+}

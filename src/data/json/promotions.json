@@ -1,0 +1,86 @@
+[
+  {
+    "promotionCode": "DI10000033",
+    "promotionName": "All - thang 4",
+    "toDate": "2023-04-30T23:59:59",
+    "fromDate": "2023-04-01T00:00:00",
+    "createdDate": "2023-03-24T14:35:19.94",
+    "updatedDate": "2023-03-24T14:35:19.94",
+    "active": 1,
+    "updateBy": "thanh.tang",
+    "promotionDetails": null,
+    "storeCode": null
+  },
+  {
+    "promotionCode": "DI10000035",
+    "promotionName": "Bia Edelweiss",
+    "toDate": "2023-04-30T23:59:59",
+    "fromDate": "2023-04-01T00:00:00",
+    "createdDate": "2023-03-24T16:12:55.67",
+    "updatedDate": "2023-03-24T16:12:55.67",
+    "active": 1,
+    "updateBy": "thanh.tang",
+    "promotionDetails": null,
+    "storeCode": null
+  },
+  {
+    "promotionCode": "DI10000036",
+    "promotionName": "FF T4 - All",
+    "toDate": "2023-04-15T23:59:59",
+    "fromDate": "2023-04-01T00:00:00",
+    "createdDate": "2023-03-24T16:52:10.407",
+    "updatedDate": "2023-03-24T16:52:10.407",
+    "active": 1,
+    "updateBy": "thanh.tang",
+    "promotionDetails": null,
+    "storeCode": null
+  },
+  {
+    "promotionCode": "DI10000037",
+    "promotionName": "FF T4 - all2",
+    "toDate": "2023-04-30T23:59:59",
+    "fromDate": "2023-04-04T00:00:00",
+    "createdDate": "2023-03-24T16:55:11.66",
+    "updatedDate": "2023-03-24T16:55:11.66",
+    "active": 1,
+    "updateBy": "thanh.tang",
+    "promotionDetails": null,
+    "storeCode": null
+  },
+  {
+    "promotionCode": "DI10000038",
+    "promotionName": "240-khaitruong",
+    "toDate": "2023-04-05T23:59:59",
+    "fromDate": "2023-04-01T00:00:00",
+    "createdDate": "2023-03-29T17:05:52.863",
+    "updatedDate": "2023-03-29T17:05:52.863",
+    "active": 0,
+    "updateBy": "thanh.tang",
+    "promotionDetails": null,
+    "storeCode": null
+  },
+  {
+    "promotionCode": "DI10000043",
+    "promotionName": "Clearstock T4",
+    "toDate": "2023-04-30T23:59:59",
+    "fromDate": "2023-04-04T00:00:00",
+    "createdDate": "2023-04-03T10:01:30.793",
+    "updatedDate": "2023-04-03T10:01:30.793",
+    "active": 1,
+    "updateBy": "thanh.tang",
+    "promotionDetails": null,
+    "storeCode": null
+  },
+  {
+    "promotionCode": "DI10000044",
+    "promotionName": "TRANCHAU",
+    "toDate": "2023-04-30T23:59:59",
+    "fromDate": "2023-04-04T00:00:00",
+    "createdDate": "2023-04-03T13:49:16.08",
+    "updatedDate": "2023-04-03T13:49:16.08",
+    "active": 1,
+    "updateBy": "thanh.tang",
+    "promotionDetails": null,
+    "storeCode": null
+  }
+]

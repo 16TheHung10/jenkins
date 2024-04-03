@@ -1,0 +1,36 @@
+.card-wrapper {
+  border-radius: 5px;
+  margin: 0 !important;
+  grid-gap: 10px;
+  gap: 10px;
+  justify-content: space-between;
+  height: 85px;
+  align-items: center;
+  &:hover {
+    .icon-wrapper {
+      scale: 1.2;
+    }
+  }
+  .icon-wrapper {
+    width: 30%;
+    justify-content: center;
+    font-size: 40px;
+    transition: all 0.3s;
+  }
+  .content {
+    text-align: left;
+    .title {
+      color: var(--primary-color);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    .sub-title {
+      font-size: 12px;
+      margin: 0;
+      color: #bdb8b8;
+    }
+  }
+}

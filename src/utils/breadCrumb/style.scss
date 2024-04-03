@@ -1,0 +1,12 @@
+.custom-breadcrumb {
+  font-size: 12px;
+  font-style: italic;
+
+  margin: 8px 0;
+
+  &.ant-breadcrumb li:last-child,
+  &.ant-breadcrumb li:last-child a {
+    text-decoration: underline;
+    color: #007cff;
+  }
+}

@@ -1,0 +1,86 @@
+#upload {
+    display: flex;
+    gap: 10px;
+
+    &>span {
+        // height: calc((900px) / 5);
+        // width: 100%;
+        aspect-ratio: 1/1;
+    }
+
+    .upload_image {
+        // height: calc((900px) / 5);
+        // width: calc((900px) / 5);
+        border-radius: 5px;
+        transition: all .5s;
+        border: 1px solid #cbcbcb;
+
+        &_content {
+            width: 100%;
+            margin: auto;
+
+            p {
+                margin: 0px;
+                display: -webkit-box;
+                max-width: 200px;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
+            .description {
+                flex: 1;
+            }
+
+            video {
+                width: 100%;
+                aspect-ratio: ratio;
+                border-radius: 5px;
+                object-fit: contain
+            }
+        }
+
+
+    }
+
+    .fade-out {
+        transition: all 0.3s;
+        opacity: 0;
+    }
+
+    .delete {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        transform: translate(50%, -50%);
+        background: #ffffff;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition: all .3s;
+
+        &:hover {
+            scale: 1.2;
+        }
+    }
+
+    .upload_button {
+        font-size: 80px;
+
+        .ant-upload-drag-icon {
+            margin: 0 !important;
+        }
+    }
+
+    .ant-upload.ant-upload-drag {
+        height: 100%;
+        border-radius: 5px;
+    }
+}

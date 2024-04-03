@@ -1,0 +1,11 @@
+#pos_trace_log_wrapper {
+  .pos_trace_log_table {
+    tr {
+      vertical-align: top;
+
+      &:nth-child(odd) {
+        background-color: #f7f6f6 !important;
+      }
+    }
+  }
+}

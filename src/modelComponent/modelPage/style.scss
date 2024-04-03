@@ -1,0 +1,12 @@
+.custom-tab .ant-tabs-tab {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-tab .ant-tabs-tab .ant-tabs-tab-btn {
+    justify-content: flex-start;
+}
+
+.custom-tab .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    justify-content: flex-start;
+}

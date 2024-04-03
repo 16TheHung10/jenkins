@@ -1,0 +1,15 @@
+.submit_btn {
+  transition: width 0.5s;
+
+  button {
+    transition: all 0.5s;
+  }
+}
+
+.hiddenBtn {
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  background: var(--primary-color);
+  border-radius: 6px;
+}

@@ -1,0 +1,12 @@
+#check_info_app_container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+    }
+  }
+}

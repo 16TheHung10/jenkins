@@ -1,0 +1,88 @@
+#check-in-overview {
+  table {
+    width: fit-content !important;
+
+    th.ant-table-cell {
+      min-width: 75px;
+      max-width: 75px;
+      background-color: #ffffff !important;
+      color: black !important;
+      padding: 5px !important;
+      padding: 5px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    th.ant-table-cell:has(> p.date_cell) {
+      min-width: 50px !important;
+      max-width: 50px !important;
+    }
+  }
+
+  .checkinHistoryTable {
+    background: white;
+  }
+
+  .log-time-tag {
+    border-radius: 10px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  .ant-table-cell {
+    font-size: 10px !important;
+    padding: 0px 5px !important;
+
+    &:hover {
+      svg {
+        scale: 1.6;
+        animation: breath 2s linear infinite;
+      }
+    }
+  }
+
+  .check-in {
+    // color: var(--primary-color);
+    color: #00cc00;
+  }
+
+  .add-log {
+    color: orange !important;
+  }
+
+  .check-out {
+    // color: #00cc00;
+    color: red;
+  }
+
+  .ant-table-cell:has(> .miss_log) {
+    color: white !important;
+    background-color: #fffbe6 !important;
+  }
+
+  .ant-table-cell:has(> .absent) {
+    color: white !important;
+    background-color: #fff2f0 !important;
+  }
+
+  .symmary-history {
+    max-height: 500px;
+    overflow-x: scroll;
+  }
+
+  @keyframes breath {
+    0% {
+      scale: 1;
+    }
+
+    30% {
+      scale: 1.6;
+    }
+
+    100% {
+      scale: 1;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+image: node:14.21.3
+
+# Workflow Configuration
+
+pipelines:
+  branches:
+    dev2:
+      - parallel:
+          - step:
+              name: Build and Test
+              caches:
+                - node
+              script:
+                - npm install -g npm@6.14.18
+                - npm install
+                - npm run build -g
+              artifacts:
+                - build/**
+          - step:
+              name: Deploy to Server
+              deployment: Production
+              trigger: manual
+              clone:
+                enabled: false
+              script:
+                - apt-get update && apt-get install -y openssh-client
+                - echo "$SSH_PRIVATE_KEY" > private-key.pem
+                - chmod 600 private-key.pem
+                - scp -i private-key.pem -P 25389 -o StrictHostKeyChecking=no test.js $USERNAME@10.1.1.50:/C:/Users/hung.phung/Desktop/Build_Bit

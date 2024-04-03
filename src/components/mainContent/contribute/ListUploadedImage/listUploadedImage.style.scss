@@ -1,0 +1,20 @@
+#list_uploaded_image {
+  display: flex;
+  margin-top: 10px;
+  img {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+  .remove_icon {
+    color: black;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover {
+      scale: 1.5;
+      rotate: 180deg;
+    }
+  }
+}

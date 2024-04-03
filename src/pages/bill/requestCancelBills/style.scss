@@ -1,0 +1,13 @@
+#request_cancel_bill {
+  .clear_bill_detail_btn {
+    font-size: 29px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    color: var(--primary-color);
+    cursor: pointer;
+    z-index: 2;
+  }
+}

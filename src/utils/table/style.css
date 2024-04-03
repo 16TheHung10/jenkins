@@ -1,0 +1,14 @@
+.ant-table.ant-table-small {
+  font-size: 12px !important;
+}
+.ant-table-thead > tr > th[colspan]::before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 1.6em;
+  background-color: rgba(0, 0, 0, 0.06);
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+  content: "";
+}

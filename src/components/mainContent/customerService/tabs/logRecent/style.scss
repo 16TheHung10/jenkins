@@ -1,0 +1,10 @@
+#log_recent {
+  .eye_icon {
+    transition: all 0.3s;
+    opacity: 0.4;
+    &:hover {
+      opacity: 1;
+      scale: 1.1;
+    }
+  }
+}

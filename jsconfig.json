@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "target": "ES6",
+        "baseUrl": "./src",
+        "paths": {
+            "pages/*": ["./src/pages/*"],
+            "components/*": ["./src/components/*"],
+            "message/*": ["./src/message/*"],
+            "hooks/*": ["./src/hooks/*"],
+            "api/*": ["./src/api/*"],
+            "data/*": ["./src/data/*"],
+            "constant/*": ["./src/constant/*"],
+            "contexts/*": ["./src/contexts/*"],
+            "external/*": ["./src/external/*"],
+            "helpers/*": ["./src/helpers/*"],
+            "images/*": ["./src/images/*"],
+            "modelComponent/*": ["./src/modelComponent/*"],
+            "models/*": ["./src/models/*"],
+            "redux/*": ["./src/redux/*"],
+            "styles/*": ["./src/styles/*"],
+            "utils/*": ["./src/utils/*"],
+            "routes/*": ["./src/routes/*"],
+            "*":["declare/*","*"]
+        }
+    },
+    "include": ["src/**/*"]
+}
+  

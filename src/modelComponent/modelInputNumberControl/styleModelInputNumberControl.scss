@@ -1,0 +1,31 @@
+.custom-input-number {
+    display: inline-block;
+    * {
+        vertical-align: middle;
+    }
+
+    .ant-input-number-handler {
+        display: none;
+    }
+
+    .ant-input-number-input {
+        text-align: center;
+    }
+
+    .ant-input-number-handler-wrap {
+        display: none;
+    }
+
+    &.order-input {
+        background-color: #fff;
+        width: 50px;
+
+        *:focus {
+            box-shadow: none;
+            background-color: #fff;
+        }
+        input {
+            height: 24px;
+        }
+    }
+}

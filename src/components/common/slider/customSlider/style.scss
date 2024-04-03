@@ -1,0 +1,17 @@
+#slider_wrapper {
+  #value1,
+  #value2 {
+    position: absolute;
+    left: inherit;
+    transform: inherit;
+    font-size: 10px;
+  }
+
+  #value1 {
+    top: 100%;
+  }
+
+  #value2 {
+    bottom: 100%;
+  }
+}

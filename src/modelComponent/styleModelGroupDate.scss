@@ -1,0 +1,21 @@
+.modelWeekPicker {
+    .ant-picker-week-panel-row td.ant-picker-cell-today {
+        background-color: orangered; /* Màu nền của ngày hiện tại (ví dụ: đỏ) */
+        color: #fff; /* Màu chữ trắng */
+        font-weight: bold; /* Chữ đậm */
+    }
+
+    .ant-picker-week-panel-row-selected td .ant-picker-cell-inner.ant-picker-cell-inner.highlight-custom-selected-week,
+    .ant-picker-week-panel-row-selected:hover
+        td
+        .ant-picker-cell-inner.ant-picker-cell-inner.highlight-custom-selected-week {
+        background-color: orange !important;
+    }
+
+    .ant-picker-cell-week,
+    .ant-picker-week-panel-row-selected td.ant-picker-cell-week,
+    .ant-picker-week-panel-row-selected:hover td.ant-picker-cell-week {
+        color: white !important;
+        background: darkseagreen !important;
+    }
+}

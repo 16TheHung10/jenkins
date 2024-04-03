@@ -1,0 +1,33 @@
+#main_tag {
+  position: relative;
+  width: fit-content;
+  background: white;
+  padding: 5px 10px;
+  height: 35px;
+  margin-left: 25px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: calc(100% + 5px);
+    width: 8px;
+    height: 8px;
+    background: white;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+  }
+
+  &::before {
+    content: "";
+    height: 100%;
+    display: block;
+    background: inherit;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%);
+    position: absolute;
+    right: 100%;
+    z-index: 5;
+    width: 25px;
+    top: 0;
+  }
+}

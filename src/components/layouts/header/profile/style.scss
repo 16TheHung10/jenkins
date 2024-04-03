@@ -1,0 +1,10 @@
+#profile {
+  .external_link_comp {
+    display: none;
+  }
+  @media screen and (max-width: 1199px) {
+    .external_link_comp {
+      display: block;
+    }
+  }
+}

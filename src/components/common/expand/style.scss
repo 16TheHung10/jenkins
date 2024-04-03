@@ -1,0 +1,27 @@
+#extend_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+  .icon {
+    transition: all 0.3s ease-in-out;
+    color: var(--primary-color);
+  }
+  .rotate {
+    transform: rotate(90deg);
+  }
+  .expand_element {
+    // width: 0;
+    // overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .active {
+    width: 100% !important;
+    transition: all 0.3s ease-in-out;
+  }
+  .inactive {
+    width: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+}

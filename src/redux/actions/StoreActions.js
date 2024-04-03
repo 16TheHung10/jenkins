@@ -1,0 +1,3 @@
+const StoreAction = {
+  CHANGE_ALLOW_PROMOTION: "CHANGE_ALLOW_PROMOTION",
+};
