@@ -1,9 +1,0 @@
-** Create folder 
-    - Execute: npm run add FolderName [path]
-    - Example: npm run add MyLayouts components/layouts
-** Create fields data :
-    - Usage: using useFormField()
-    - Data: create a folder at src/data/render/FeatureName/form/Fields[FeatureName]Data
-** Create table data :
-    - Usage: using component MainTable
-    - Data: create a folder at src/data/render/FeatureName/table/Table[FeatureName]Data
